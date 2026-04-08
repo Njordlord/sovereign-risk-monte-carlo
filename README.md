@@ -9,9 +9,7 @@ This model captures stochastic growth and interest rate dynamics with correlated
 
 This project simulates the evolution of a country’s **debt-to-GDP ratio** using a recursive macroeconomic framework:
 
-\[
-d_t = d_{t-1} \cdot \frac{1 + r_t}{1 + g_t} - pb_t
-\]
+d(t) = d(t-1) × (1 + r) / (1 + g) − pb
 
 Where:
 - \(d_t\): Debt-to-GDP ratio  
